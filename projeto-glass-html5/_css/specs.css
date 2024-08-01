@@ -40,19 +40,19 @@ div#interface {
 
 /* Cabeçalho */
 
-hgroup#gp-cab {
+header#cabecalho {
     border-bottom: 1px solid #9e9e9e;
-    margin-bottom: -10px;
+    margin-bottom: -10px; 
 }
 
-hgroup#gp-cab h1 {
+header#cabecalho h1 {
     font-family: fontelogo;
     color: #606060;
     font-weight: 900;
     font-size: 30pt;
 }
 
-hgroup#gp-cab h2 {
+header#cabecalho h2 {
     margin-top: -30px;
     color: #9e9e9e;
     margin-bottom: 3px;
@@ -64,9 +64,9 @@ img#glass-logo {
 }
 
 img#icone {
-    position: relative;
-    top: -140px;
-    left: 950px;
+    position: absolute;
+    top: 43px;
+    left: 1000px;
 }
 
 
@@ -116,17 +116,9 @@ nav#menu a:hover {
 
 /* Corpo */
 
-section#corpo {
-    margin-top: -120px;
-}
-
-section#corpo p {
-    text-indent: 25px;
-}
 
 
-
-hgroup#cabecalho-corpo h3 {
+hgroup#cabecalho-corpo h1 {
     font-size: 15pt;
     color: #9e9e9e;
 
@@ -142,18 +134,15 @@ hgroup#cabecalho-corpo h2{
 
 hgroup#cabecalho-corpo p{
     color: #8a8a8a; 
-    text-indent: 0%;
 }
 
 hgroup#cabecalho-corpo p#data{
     text-align: right;
 }
 
-section#corpo h1{
-    font-size: 15pt;
-    background-color: #dddddd;
-    color: #444444;
-    font-weight: bolder;
+
+section#corpo p {
+    text-indent: 25px;
 }
 
 section#corpo a{

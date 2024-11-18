@@ -1,25 +1,62 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídia</title>
+    <link rel="stylesheet" type="text/css" href="_css/media.css">
+    <script src="_javascript/funcoes.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
+<div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
 
-[AQUI ENTRA UMA FOTO]
+        <img id="glass-logo" src="_imagens/glass-logo-peq.jpg">
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+        <nav id="menu">
+            <ul>
+                <li onmouseover="mudafoto('_imagens/home.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
 
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+                <li onmouseover="mudafoto('_imagens/especificacoes.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
 
+                <li onmouseover="mudafoto('_imagens/fotos.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
 
-Áudio e Vídeo
+                <li onmouseover="mudafoto('_imagens/multimidia.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
 
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
+                <li onmouseover="mudafoto('_imagens/contato.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+        </hgroup>
+    
+    <img id="icone" src="_imagens/multimidia.png">
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+    </header>
+
+    <section id="corpo">
+        <hgroup id="cabecalho-corpo">
+        <h1>Glass > Multimídia</h1>
+        <h2>Sons e Vídeos</h2><br>
+        <p style="text-indent: 0px;">por Gustavo André</p>
+        <p id="data">Atualizado em 18/Nov/2024</p>
+        </hgroup>
+
+    <p>Áudio e Vídeo</p>
+    <div id="tv-radio">
+        <img id="tv" src="_imagens/radio-tv.png"/>
+        <video class="v3" controls>
+            <source src="_media/getting-started.mp4" type="video/mp4">
+        </video>
+        <audio id="musica" controls="controls">
+            <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+        </audio>
+    </div>
+    <footer id="rodape">
+        <p>&copy;Copyright 2013 - by Gustavo Guanabara<br><br>
+        <a href="https://www.facebook.com/cursoemvideo" target="_blank">Facebook</a> | <a href="https://x.com/cursosemvideo" target="_blank">Twitter</a></p>
+    </footer>

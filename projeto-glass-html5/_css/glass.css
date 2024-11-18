@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "fontelogo";
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+body {
+    font-family: arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Topo */
+
+article#topo h1{
+    font-size: 13pt;   
+    color: #9e9e9e; 
+}
+
+
+
+
+
+
+/* Tela */
+
+article#tela h1 {
+    background-color: #9e9e9e;
+    color: white;
+    font-size: 14pt;
+    padding: 3px;
+}
+
+article#tela h2 {
+    color: #696969;
+    font-size: 13pt;
+    margin-top: -17px;
+}
+
+article#tela p {
+    text-indent: 25px;
+    font-size: 10pt;
+}
+
+
+
+
+
+
+
+
+
+/* Câmera */
+
+article#camera h1 {
+    background-color: #9e9e9e;
+    color: white;
+    font-size: 14pt;
+    padding: 3px;
+}
+
+article#camera h2 {
+    color: #696969;
+    font-size: 13pt;
+    margin-top: -17px;
+}
+
+article#camera p {
+    text-indent: 25px;
+    font-size: 10pt;
+    display: block;
+    float: left;
+    width: 220px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+/* Sensores */
+
+article#sensores h1 {
+    background-color: #9e9e9e;
+    color: white;
+    font-size: 14pt;
+    padding: 3px;
+}
+
+article#sensores h2 {
+    color: #696969;
+    font-size: 13pt;
+    margin-top: -17px;
+}
+
+article#sensores p {
+    text-indent: 25px;
+    font-size: 10pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Gadgets*/
+
+article#gadgets h1 {
+    background-color: #9e9e9e;
+    color: white;
+    font-size: 14pt;
+    padding: 3px;
+}
+
+article#gadgets h2 {
+    color: #696969;
+    font-size: 13pt;
+    margin-top: -17px;
+}
+
+article#gadgets p {
+    text-indent: 25px;
+    font-size: 10pt;
+    display: block;
+    float: left;
+    width: 230px;
+    text-align: justify;
+}
+
+
